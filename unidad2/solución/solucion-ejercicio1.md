@@ -4,12 +4,12 @@
 
 ### 2. Modelo Relacional
 
-Medio (__ID_Med__, nombre, url, categoria)
-Canal  (__ID_Can__, #ID_Med, nombre, followers)
-Posee (__#ID_Med, ID_Due__)
-Dueño (__ID_Due__, nombre, tipo)
-Noticia (__ID_Not__, #ID_Med, titulo, texto, imagen, fecha, publicacion)
-Palabra(__ID_Pal__, #ID_Not, repeticion, tipo, categoria)
+* Medio (__ID_Med__, nombre, url, categoria)
+* Canal  (__ID_Can__, #ID_Med, nombre, followers)
+* Posee (__#ID_Med, ID_Due__)
+* Dueño (__ID_Due__, nombre, tipo)
+* Noticia (__ID_Not__, #ID_Med, titulo, texto, imagen, fecha, publicacion)
+* Palabra(__ID_Pal__, #ID_Not, repeticion, tipo, categoria)
 
 ### 3. Consultas SQL
 

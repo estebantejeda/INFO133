@@ -122,7 +122,7 @@ HAVING pedidos > 3;
 7.1 Mostrar el numeros de empleados por oficinas
 
 ~~~mysql
-SELECT officeCode AS Departamento, COUNT(employeeNumber) AS Empleados
+SELECT officeCode AS Departamento, COUNT(*) AS Empleados
 FROM employees 
 GROUP BY officeCode;
 ~~~
@@ -135,6 +135,9 @@ GROUP BY officeCode;
 7.3. Mostrar el volumen de negocio agrupado según el producto
 
 ~~~mysql
+SELECT productCode, SUM(quantityOrdered*priceEach)
+FROM orderdetails 
+GROUP BY productCode; 
 ~~~
 
 7.4 Mostrar qué productos nunca se vendieron
