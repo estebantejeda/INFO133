@@ -103,12 +103,11 @@ Su Modelo Relacional deberá indicar explicitamente las claves primarias y foran
 ### 3. Consultas SQL
 
 Proponer escenarios de consulta sobre la base de datos obtenida:
-1. 2 consultas necesitarán el uso del operador INNER JOIN
-1. 1 consulta necesitará el uso del operador LEFT OUTER JOIN
-1. 2 consultas necesitarán el uso del operador GROUP BY
-1. 1 consulta necesitará el uso del operador HAVING
-1. 2 consultas necesitarán el uso de una subconsulta
-1. 1 consulta combinará una subconsulta con el uso de un operador GROUP BY
+1. Mostrar cuántas especies distintas viven en cada tipo de habitats
+1. Mostrar cuántos habitats hay por cada itinerario
+1. Mostrar el itinerario que tiene más habitats
+1. Mostrar los itinerarios que permiten al menos 100 especies distintas
+1. Mostrar en qué habitats viven especies que contienen la palabra 'Chile' en su descripción (mostrar nombre de especie y habitat)
 
 ----------------------
 
